@@ -13,6 +13,11 @@
 		FDF9577C258CBE6F002113EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9577A258CBE6F002113EB /* Main.storyboard */; };
 		FDF9577E258CBE79002113EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF9577D258CBE79002113EB /* Assets.xcassets */; };
 		FDF95781258CBE79002113EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF9577F258CBE79002113EB /* LaunchScreen.storyboard */; };
+		FDF95789258CC225002113EB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF95788258CC225002113EB /* LoginViewController.swift */; };
+		FDF9578B258CC33C002113EB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9578A258CC33C002113EB /* HomeViewController.swift */; };
+		FDF9578D258CC35F002113EB /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9578C258CC35F002113EB /* ImageSelectViewController.swift */; };
+		FDF9578F258CC376002113EB /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF9578E258CC376002113EB /* PostViewController.swift */; };
+		FDF95791258CC39D002113EB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF95790258CC39D002113EB /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		FDF9577D258CBE79002113EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF95780258CBE79002113EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF95782258CBE79002113EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF95788258CC225002113EB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FDF9578A258CC33C002113EB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FDF9578C258CC35F002113EB /* ImageSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		FDF9578E258CC376002113EB /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		FDF95790258CC39D002113EB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				FDF95774258CBE6F002113EB /* AppDelegate.swift */,
 				FDF95776258CBE6F002113EB /* SceneDelegate.swift */,
 				FDF95778258CBE6F002113EB /* ViewController.swift */,
+				FDF95788258CC225002113EB /* LoginViewController.swift */,
+				FDF9578A258CC33C002113EB /* HomeViewController.swift */,
+				FDF9578C258CC35F002113EB /* ImageSelectViewController.swift */,
+				FDF9578E258CC376002113EB /* PostViewController.swift */,
+				FDF95790258CC39D002113EB /* SettingViewController.swift */,
 				FDF9577A258CBE6F002113EB /* Main.storyboard */,
 				FDF9577D258CBE79002113EB /* Assets.xcassets */,
 				FDF9577F258CBE79002113EB /* LaunchScreen.storyboard */,
@@ -138,6 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF9578D258CC35F002113EB /* ImageSelectViewController.swift in Sources */,
+				FDF9578B258CC33C002113EB /* HomeViewController.swift in Sources */,
+				FDF9578F258CC376002113EB /* PostViewController.swift in Sources */,
+				FDF95791258CC39D002113EB /* SettingViewController.swift in Sources */,
+				FDF95789258CC225002113EB /* LoginViewController.swift in Sources */,
 				FDF95779258CBE6F002113EB /* ViewController.swift in Sources */,
 				FDF95775258CBE6F002113EB /* AppDelegate.swift in Sources */,
 				FDF95777258CBE6F002113EB /* SceneDelegate.swift in Sources */,
@@ -294,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.satoshi.nakamura.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.satoshi.nakamura.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
